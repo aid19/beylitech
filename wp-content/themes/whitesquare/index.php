@@ -15,10 +15,7 @@
                             <a class="navbar-brand" href="index.html">
                                 <!-- <img src="img/blog-img/logo-footer.png" alt="logo"> -->
                                 <img src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="logo">
-
-
-                                
-                                </a>
+                             </a>
 
                             <!-- Menu Area -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -518,7 +515,7 @@
                                              <p class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
                                              </div>
                                          </div>
-                             </div>
+                                   </div>
                                          <div class="col-sm-4">
                                                  <div class="start2">   
                                                          <div class="start12">                              
@@ -527,10 +524,9 @@
                                                          <p  class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
                                                          </div>
                                                      </div>
-                                                     </div>
+                                               </div>
                              </div>
-                    </div>
-     
+                     </div>     
                 </div>
             </div>
         </div>

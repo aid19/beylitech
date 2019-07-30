@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('.a11').css('background-color', '#c9dbed');
         $(this).css('background-color', '#93a1d6');
         e.preventDefault();
-      })
+     })
 
 
       $('div').click(function() {
@@ -77,7 +77,7 @@ $(document).ready(function() {
     });
 
 
-});
+
     //   $('section').click(function(){
 
         // var myClass = $(this).attr("class");
