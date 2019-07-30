@@ -98,7 +98,6 @@
 </div>
 
     <!-- ***** Portfolio Area Start ***** -->
-    <section class="mosh-portfolio-area section_padding_100_0 clearfix yolo">
         <div  class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -134,7 +133,6 @@
                 </div>
             </div>
         </div>
-    </section>
 
     <section>
         <div class="container">
@@ -438,7 +436,7 @@
 
     <!-- ***** Features Area Start ***** -->
     <section class="mosh-features-area section_padding_100 clearfix">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-end">
                 <div class="col-12 col-md-6">
                     <div class="section-heading">
@@ -492,144 +490,136 @@
     </section>
     <!-- ***** Feature Area End ***** -->
 
-    <!-- ***** Service Area Start ***** -->
-    <div class="container-fluid">
-        <div class="row" >
-            <div class="col-sm-12">
-                <div class="space">
-                    <div class="row">
-                    <div class="col-sm-4">
-                         <div class="start"> 
-                                 <div class="start10">
-                                         <i class="fas fa-trophy font end"></i>
-                                 <h2 class="tagline"> CREATIVE DESIGNS </h2> 
-                                 <p  class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
-                                 </div>
-                             </div>
-                         </div>
-                             <div class="col-sm-4">
-                                     <div class="start1">
-                                             <div class="start11">
-                                                     <i class="fas fa-keyboard end"></i>
-                                             <h2 class="tagline"> CODING & USABILITY  </h2> 
-                                             <p class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
-                                             </div>
-                                         </div>
-                                   </div>
-                                         <div class="col-sm-4">
-                                                 <div class="start2">   
-                                                         <div class="start12">                              
-                                                                 <i class="fas fa-clipboard-check end"></i>
-                                                         <h2 class="tagline"> BRAND CONSULTING </h2> 
-                                                         <p  class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
-                                                         </div>
-                                                     </div>
-                                               </div>
-                             </div>
-                     </div>     
-                </div>
-            </div>
-        </div>
 
+    <!-- ***** Service Area Start ***** -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4 b1">
+                        <div class="columns2">
+                            <div class="columns3">
+                            <i class="fas fa-trophy font end"></i> 
+                            <h2 class="tagline"> CREATIVE DESIGNS </h2> 
+                            <p  class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 b2">
+                        <div class="columns4">
+                            <div class="columns5">
+                            <i class="fas fa-keyboard end"></i>
+                            <h2 class="tagline"> CODING & USABILITY  </h2> 
+                             <p class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 b3">
+                        <div class="columns6">
+                            <div class="columns7">
+                            <i class="fas fa-clipboard-check end"></i>
+                             <h2 class="tagline"> BRAND CONSULTING </h2> 
+                                <p  class="duis"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
+</div>
+
     <!-- ***** Service Area End ***** -->
 
+ 
     <!-- ***** Workflow Area Start ***** -->
     <section class="mosh-workflow-area clearfix" style="background-image: url(nyc-Gyttylmages-499564613 (1))">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="contactus">
-                        <div class="maintext">
-                            <h1 style="color:whitesmoke"> CONTACT US</h1>
-                                <div class="row">
-                                        <div class="col-sm-3">
-                                                <div class="contacts">
-                                                <div class="gem-icon ">
-                                                
-                                                    </div>
-                                                    <i class="fas fa-map-marked-alt qwerty"></i>   
-                                                <h4 style="color:white"> ADDRESS</h4>
-                                                <p style="color: white"> 908 New Hampshire Avenue</br>
-                                                        Northwest #100, Washington, DC</br>
-                                                        20037, United States<br>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                    <div class="contacts">
-                                                    <i class="fas fa-phone qwerty1" ></i>
-                                                    <h4 style="color:white"> PHONES</h4>
-                                                    <p style="color:white"> Phone: +1 916-875-2235</br>
-                                                            Mobile: +1 916-875-2235<br>
-                                                            Fax: +1 916-875-2235</br>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-3">
-                                                        <div class="contacts">
-                                                            <i class="far fa-envelope qwerty2"></i>
-                                                            <h4 style="color:white"> CONTACTS</h4>
-                                                        <p style="color:white"> info@domain.ltd</br>
-                                                                thegem@domain.ltd</br>
-                                                                www.codex-themes.com</br>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                        <div class="col-sm-3">
-                                                                <div class="contacts">
-                                                                <i class="far fa-clock qwerty3"></i>
-                                                                <h4 style="color:white"> WORKING HOURS</h4>
-                                                                <p style="color:white"> Monday-Friday: 9:00 – 18:00</br>
-                                                                        Saturday: 11:00 – 17:00</br>
-                                                                        Sunday: Closed</br>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-
-                                                            
+        <div class="contactus">
+            <div class="maintext">
+                <h1 style="color:whitesmoke"> CONTACT US</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="contacts">
+                             <i class="fas fa-map-marked-alt qwerty"></i>   
+                             <h4 style="color:white"> ADDRESS</h4>
+                             <p style="color: white"> 908 New Hampshire Avenue</br>
+                                Northwest #100, Washington, DC</br>
+                                20037, United States<br>
+                             </p>
+                            </div>
+                         </div>
+                            <div class="col-sm-3">
+                                <div class="contacts">
+                                <i class="fas fa-phone qwerty1" ></i>     
+                                <h4 style="color:white"> PHONES</h4>
+                                <p style="color:white"> Phone: +1 916-875-2235</br>
+                                    Mobile: +1 916-875-2235<br>
+                                    Fax: +1 916-875-2235</br>
+                                </p>
+                               </div>
+                            </div>
+                              <div class="col-sm-3">
+                                <div class="contacts">
+                                 <i class="far fa-envelope qwerty2"></i>
+                                 <h4 style="color:white"> CONTACTS</h4>
+                                 <p style="color:white"> info@domain.ltd</br>
+                                   thegem@domain.ltd</br>
+                                   www.codex-themes.com</br>
+                                 </p>
                                 </div>
-
-                                    <div class="container">
-
-                                        <div class="row">
-                                                  <div class="col-sm-4">
-                                                      <div class="form-group">
-                                                        <label for="exampleInputEmail1">Name*</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name*">
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-sm-4">
-                                                      <div class="form-group">
-                                                          <label for="exampleInputEmail1">Email*</label>
-                                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*">
-                                                      </div>
-                                                  </div>                                               
-                                                  <div class="col-sm-4">
-                                                          <div class="form-group">
-                                                              <label for="exampleInputEmail1">Website*</label>
-                                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Website*">
-                                                          </div>
-                                                      </div>                          
-                                          </div>
-                                    <div>
-                                        <div class="row">
-                                        <div class="col-sm-12">
-                                                <div class="form-group">
-                                                        <label for="exampleFormControlTextarea1">message</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message*" rows="11"></textarea>
-                                                      </div>
-                                                    </div>             
+                            </div>
+                             <div class="col-sm-3">
+                                <div class="contacts">
+                                 <i class="far fa-clock qwerty3"></i>
+                                 <h4 style="color:white"> WORKING HOURS</h4>
+                                 <p style="color:white"> Monday-Friday: 9:00 – 18:00</br>
+                                   Saturday: 11:00 – 17:00</br>
+                                   Sunday: Closed</br>
+                                 </p>
+                                </div>
+                              </div>                                     
+                    </div>
+                </div>
+                <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                    <label for="exampleInputEmail1">Name*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name*">
                                     </div>
-                                        </div>
-                                        <div class="row">
-                                        <div class="col-sm-12">
-                                                <button type="submit" class="btn btn-primary btn-full">Submit Message</button>
-                                            </div>
-                                            </div>
-                                         </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                    <label for="exampleInputEmail1">Email*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*">
+                                    </div>
+                                </div>                                               
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                    <label for="exampleInputEmail1">Website*</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Website*">
+                                    </div>
+                                </div>                          
+                            </div>
+                        <div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                <label for="exampleFormControlTextarea1">message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message*" rows="11"></textarea>
+                                </div>
+                            </div>             
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary btn-full">Submit Message</button>
                         </div>
-                    </div>                 
-            </div>   
+                    </div>
+                </div>                                    
+            </div>
+        </div>                 
     </section>
     
 
@@ -642,7 +632,7 @@
     <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(<?php echo get_template_directory_uri()?>/img/bg-img/cta.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
                         <div class="section-heading">
                             <p>give us a shout</p>

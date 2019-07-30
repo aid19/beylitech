@@ -11,21 +11,21 @@ $(document).ready(function() {
      })
 
 
-      $('div').click(function() {
-        if (!$(this).hasClass('a11')) {
-            console.log('not have class')
-            $('.a11').css('background-color', '#c9dbed');
-        }
-        return false;
-    });
+    //   $('div').click(function() {
+    //     if (!$(this).hasClass('a11')) {
+    //         console.log('not have class')
+    //         $('.a11').css('background-color', '#c9dbed');
+    //     }
+    //     return false;
+    // });
 
-    $('section').click(function() {
-        if (!$(this).hasClass('a11')) {
-            console.log('not have class')
-            $('.a11').css('background-color', '#c9dbed');
-        }
-        return false;
-    });
+    // $('section').click(function() {
+    //     if (!$(this).hasClass('a11')) {
+    //         console.log('not have class')
+    //         $('.a11').css('background-color', '#c9dbed');
+    //     }
+    //     return false;
+    // });
 
     $('#form-submit').click(function() {
 

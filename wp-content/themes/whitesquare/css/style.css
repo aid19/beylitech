@@ -367,7 +367,7 @@ ol {
     left: 0;
     position: absolute;
     width: 100%;
-    z-index: 999;
+    z-index: 800;
     top: 0;
     padding: 0 15px;
     height: 120px;
@@ -467,7 +467,6 @@ ol {
 /* Sticky CSS */
 
 .header_area.sticky {
-    background-color: #000000;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     height: 60px;
     position: fixed;
@@ -1725,7 +1724,6 @@ span.accor-open {
 
 .contactus {
     line-height: 0px;
-    
    padding:60px 0px;
    background:url(../img/blog-img/RSM.jpg ) no-repeat; 
    background-position:center;
@@ -1796,39 +1794,39 @@ height: 40px;
     padding: 30px;
     
 }
-.start {
+.columns2 {
     background:url(../img/blog-img/computer.jpg ) no-repeat; 
     padding: 0px;
-    width: 650px;
+    width: 640px;
     text-align: center;
 }
-.start1 {
+.columns4 {
     background:url(../img/blog-img/26-10-15_otdel.jpg) no-repeat; 
     padding: 0px;
     background-color: rgb(155, 52, 187);
-    width: 650px;
+    width: 640px;
     text-align: center;
 }
-.start2 {
+.columns6 {
     background:url(../img/blog-img/business-4-2-1.jpg) no-repeat; 
     padding: 0px;
     background-color:skyblue;
-    width: 650px;
+    width: 627px;
     text-align: center;
 }
-.start10 {
+.columns3 {
     background-color:rgba(48, 49, 67, 0.9);
     padding: 30px;
 
 
 }
-.start11 {
+.columns5 {
    background-color:rgb(158, 107, 200,0.9);
     padding: 30px;
 
 
 }
-.start12 {
+.columns7 {
     background-color:rgb(30, 190, 206,0.9);
     padding: 30px;
 
@@ -1841,9 +1839,6 @@ height: 40px;
      size: 50px;
      color: #3c3950;
 
-}
-.space{
-    padding: 0;
 }
 
 .no-padding-x {
@@ -2021,6 +2016,22 @@ left: 40%;
 color:white;
 font-weight: 800px;
 font-size: 42px;
+}
+
+.b1{
+    right: 395px;
+}
+
+.b2 {
+    right: 135px;
+}
+
+.b3{
+    left: 119px;
+}
+
+.workk{
+    width: 100%;
 }
 /* --------------------------------
 ============= The End =============
