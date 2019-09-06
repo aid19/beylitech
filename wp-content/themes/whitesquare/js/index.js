@@ -4,11 +4,14 @@ $(document).ready(function() {
         interval:   1000
     });
 
-    $('.a11').click(function(e){
-        $('.a11').css('background-color', '#c9dbed');
-        $(this).css('background-color', '#93a1d6');
-        e.preventDefault();
-     })
+    $('.a11').click(function(){
+        $('.a11').removeClass('project-active')
+        $('.a11').removeClass('flip')
+
+        $(this).addClass('project-active')
+        $(this).addClass('flip')
+
+    })
 
 
     //   $('div').click(function() {
