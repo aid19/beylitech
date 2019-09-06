@@ -60,7 +60,7 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner animated slideInLeft">
       <div class="carousel-item active">
       <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
@@ -154,7 +154,7 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-4 a1">
-                    <div class="a11 animated ">
+                    <div class="a11 animated">
                       <h3 class="landing">Landing </h3>
                       <p class="project-details">*inexpensive website for business</br>
                         *brand awareness online</br>
@@ -163,7 +163,7 @@
                     </div>
                   </div>
                   <div class="col-sm-4 a1">
-                    <div class="a11 animated ">
+                    <div class="a11 animated">
                       <h3 class="landing">Online Store</h3>
                       <p class="project-details">*for the sale of goods and services</br>
                         *application management</br>
@@ -172,7 +172,7 @@
                     </div>
                   </div>
                   <div class="col-sm-4 a1">
-                    <div class="a11 animated ">
+                    <div class="a11 animated">
                       <h3 class="landing">Blog </h3>
                       <p class="project-details">*large amount of content</br>
                         *registration and users</br>
