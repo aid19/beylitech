@@ -72,7 +72,7 @@
                     <i class="fas fa-phone card"></i>
                     <h6 class="tekst">Phone</h6>
                     <p>
-                    <a> 012 4082002</a>
+                    <a> +994 (12) 408 20 02</a>
                     </p>
                     </div>
                     </div>   
@@ -81,7 +81,7 @@
                     <i class="fas fa-envelope-open-text card"></i>
                     <h6 class="tekst">E-mail</h6>
                     <p>
-                    <a>office@insure.az</a>
+                    <a>support@beylitech.az</a>
                     </p>
                     </div>
                     </div> 
@@ -90,14 +90,16 @@
                     <i class="far fa-address-card card"></i>
                     <h6 class="tekst">Adress</h6>
                     <p>
-                        <a>Babek plaza</a>
+                        <a>1/25 Ahmad Racabli , Chinar Park Business <br>
+                        Center 3A Baku, Azerbaijan
+                    </a>
                     </p>
                         </div>
                         </div>        
                     </div>
                     <div class="col-sm-10">
                     <div class="map-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.73158504577!2d49.868131588155265!3d40.38832512018395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d3d5d06d07b%3A0x62e93325cabed355!2sBabek+Plaza%2C+Qara%C3%A7uxur%2C+Azerbaijan!5e0!3m2!1sen!2s!4v1537275275220" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.4437052739687!2d49.85848872860668!3d40.41383895051471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403087f1fad1d885%3A0xc62a900f7ed8c732!2sBeyli%20Group!5e0!3m2!1sru!2s!4v1567773306378!5m2!1sru!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         </div>
                  </div>
