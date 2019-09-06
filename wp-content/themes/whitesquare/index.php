@@ -35,7 +35,7 @@
                                             <a class="dropdown-item" href="elements.html">Elements</a>
                                         </div>
                                     </li> -->
-                                    <li class="nav-item"><a class="nav-link" href="#blog.html">Our Team</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link" href="#blog.html">Our Team</a></li> -->
                                     <li class="nav-item"><a class="nav-link" href="#portfolio.html">Portfolio</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#services.html">Services</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#aboutus.php">About Us</a></li>
@@ -60,9 +60,8 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      <div class="carousel-cover">      
+    <div class="carousel-inner animated slideInLeft">
+      <div class="carousel-item active">   
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h1>We create projects</h1>
@@ -72,10 +71,8 @@
                   <p>CREATIVE TECHNOLOGIES</p>
                 </div>
             </div>       
-        </div>
       </div>
       <div class="carousel-item">
-        <div class="crsel-cover">
             <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h1>We create projects</h1>
@@ -85,10 +82,8 @@
                     <p>CREATIVE TECHNOLOGIES</p>
                 </div>
             </div>          
-        </div>
       </div>
       <div class="carousel-item">
-      <div class="crsel-cover">
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h1>We create projects</h1>
@@ -99,7 +94,6 @@
                 </div>
             </div>   
         </div>
-      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -113,7 +107,7 @@
 </div>
 
     <!-- ***** Portfolio Area Start ***** -->
-        <div  class="container">
+        <!-- <div  class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="teamm">
@@ -147,7 +141,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <section class="area-platform-info" id="order-project">
             <div class="container">
@@ -160,33 +154,30 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-4 a1">
-                    <div class="a11">
+                    <div class="a11 animated">
                       <h3 class="landing">Landing </h3>
-                      <p class="ding">*inexpensive website for business</br>
+                      <p class="project-details">*inexpensive website for business</br>
                         *brand awareness online</br>
                         *increase in sales and profits</br>
                       </p> 
-                      <h3 class="price">500 man</h3>
                     </div>
                   </div>
                   <div class="col-sm-4 a1">
-                    <div class="a11">
+                    <div class="a11 animated">
                       <h3 class="landing">Online Store</h3>
-                      <p class="ding">*for the sale of goods and services</br>
-                        *application management by email and online</br>
+                      <p class="project-details">*for the sale of goods and services</br>
+                        *application management</br>
                         *stylish modern design</br>
                       </p> 
-                      <h3 class="price">500 man</h3>
                     </div>
                   </div>
                   <div class="col-sm-4 a1">
-                    <div class="a11">
+                    <div class="a11 animated">
                       <h3 class="landing">Blog </h3>
-                      <p class="ding">*large amount of content</br>
+                      <p class="project-details">*large amount of content</br>
                         *registration and users</br>
                         *various modules for your tasks</br>
                       </p> 
-                      <h3 class="price">500 man</h3>
                     </div>
                   </div>
                 </div>

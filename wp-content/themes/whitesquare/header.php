@@ -6,7 +6,8 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mosh - Creative Business Template | Home</title>
+    <meta name="author" content="Aida Husizadeh & Afgan Khalilov">
+    <title>Beylitech Creative Technology</title>
     <link rel="icon" href="img/core-img/favicon.ico">
     <?php wp_head(); ?>
 </head>
