@@ -468,7 +468,7 @@ ol {
 
 .header_area.sticky {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    height: 60px;
+    height: 85px;
     position: fixed;
     top: 0;
     z-index: 999;
