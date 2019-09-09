@@ -82,6 +82,12 @@ ol {
     height: auto;
 }
 
+.nav-brand img {
+    max-width: 80%;
+    margin-bottom: 20px;
+ 
+}
+
 .section_padding_100 {
     padding-top: 40px;
     padding-bottom: 100px;
@@ -2070,6 +2076,11 @@ font-size: 42px;
 
 .form-control {
 margin-bottom: 20px;
+}
+
+
+.form-control {
+    border-color: black;
 }
 /* --------------------------------
 ============= The End =============

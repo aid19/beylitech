@@ -6,22 +6,22 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <a href="#" class="mb-50 d-block">
+                            <a href="#" class="nav-brand">
                             <!-- <img src="/img/core-img/logo.png" alt=""> -->
-                            <img src="<?php echo get_template_directory_uri()?>/img/core-img/logo.png" alt="">
+                            <img class="navbar-brand" src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="">
                             </a>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellent esque sit amet tellus blandit. Etiam nec odio vestibul.</p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Fast links</h5>
+                            <h5>Sürətli bağlantılar</h5>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Services &amp; Features</a></li>
-                                <li><a href="#">Accordions and tabs</a></li>
-                                <li><a href="#">Menu ideas</a></li>
+                                <li><a href="#">Ev</a></li>
+                                <li><a href="#">Rəsmi rəy</a></li>
+                                <li><a href="#">Xidmətlər & Xüsusiyyətlər</a></li>
+                                <li><a href="#">Akkordeonlar və nişanlar</a></li>
+                                <li><a href="#">Menyu fikirləri</a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,27 +56,28 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Contact Info</h5>
+                            <h5>Əlaqə məlumatı</h5>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
                                     <!-- <img src="img/core-img/map.png" alt=""> -->
                                     <img src="<?php echo get_template_directory_uri()?>/img/core-img/map.png" alt="">
                                 </div>
-                                <p>4127/ 5B-C Mislane Road, Gibraltar, UK</p>
+                                <p>1/25 Ahmad Racabli , Chinar Park Business
+Center 3A Baku, Azerbaijan</p>
                             </div>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
                                     <!-- <img src="img/core-img/call.png" alt=""> -->
                                     <img src="<?php echo get_template_directory_uri()?>/img/core-img/call.png" alt="">
                                 </div>
-                                <p>Main: 203-808-8613 <br> Office: 203-808-8648</p>
+                                <p>+994 (12) 408 20 02</p>
                             </div>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
                                     <!-- <img src="img/core-img/message.png" alt=""> -->
                                     <img src="<?php echo get_template_directory_uri()?>/img/core-img/message.png" alt="">
                                 </div>
-                                <p>office@yourbusiness.com</p>
+                                <p>support@beylitech.az</p>
                             </div>
                         </div>
                     </div>
