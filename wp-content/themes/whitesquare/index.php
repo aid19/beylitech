@@ -61,39 +61,39 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner animated slideInLeft">
-      <div class="carousel-item active">
-      <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h1>We create projects</h1>
-            <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
-            <div class="slider-main-title">
-                <h3 class="maintext10">BEYLITECH</h3>
-                <p>CREATIVE TECHNOLOGIES</p>
-            </div>
-        </div>
+      <div class="carousel-item active">   
+          <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h1>We create projects</h1>
+              <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
+              <div class="slider-main-title">
+                  <h3 class="maintext10">BEYLITECH</h3>
+                  <p>CREATIVE TECHNOLOGIES</p>
+                </div>
+            </div>       
       </div>
       <div class="carousel-item">
-      <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background2.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h1>We create projects</h1>
-            <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
-            <div class="slider-main-title">
-                <h3 class="maintext10">BEYLITECH</h3>
-                <p>CREATIVE TECHNOLOGIES</p>
-            </div>
-        </div>
+            <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>We create projects</h1>
+                <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
+                <div class="slider-main-title">
+                    <h3 class="maintext10">BEYLITECH</h3>
+                    <p>CREATIVE TECHNOLOGIES</p>
+                </div>
+            </div>          
       </div>
       <div class="carousel-item">
-      <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h1>We create projects</h1>
-            <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
-            <div class="slider-main-title">
-                <h3 class="maintext10">BEYLITECH</h3>
-                <p>CREATIVE TECHNOLOGIES</p>
-            </div>
+          <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h1>We create projects</h1>
+              <a class="btn btn-lg btn-primary" href="#order-project">Order project now</a>
+              <div class="slider-main-title">
+                  <h3 class="maintext10">BEYLITECH</h3>
+                  <p>CREATIVE TECHNOLOGIES</p>
+                </div>
+            </div>   
         </div>
-      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

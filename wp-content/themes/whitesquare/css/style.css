@@ -2052,6 +2052,7 @@ font-size: 42px;
     font-style: italic;
 }
 
+
 .project-details {
     color: black;
 }
@@ -2061,6 +2062,10 @@ font-size: 42px;
 
 .project-active .project-details, .project-active .landing{
     color: white !important;
+}
+
+.w-100 {
+    background: #007bff;
 }
 
 
