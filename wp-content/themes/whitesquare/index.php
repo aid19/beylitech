@@ -340,8 +340,7 @@
             <div class="row"> 
                    <div class="col-sm-12">      
                         <h1 id="services.html" class="choose">WHY CHOOSE US</h1>
-                        <p class="title6"> LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT,<br>
-                        SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE</p>
+                        <hr>
                         <div class="row">
                             <div class="col-sm-3 chooseus-block no-padding-x"> 
                                 <div class="service">
@@ -416,8 +415,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <p>clients</p>
-                        <h2 id="aboutus.php">All our clients love our work</h2>
+                        <h2 class="aboutus">All our clients love our work</h2>
                     </div>
                 </div>
                 <div class="col-12">
