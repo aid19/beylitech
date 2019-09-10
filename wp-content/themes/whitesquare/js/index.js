@@ -34,14 +34,6 @@ $(document).ready(function() {
 
         console.log('button clicked')
 
-        var name = $("#name").val();
-
-        console.log(name)
-      
-        var lastname = $("#lastname").val();
-
-        console.log(lastname)
-
         var Email = $("#Email").val();
 
         console.log(Email)
@@ -50,23 +42,14 @@ $(document).ready(function() {
 
         console.log(Message)
 
-        var city = $("#city").val();
-
-        console.log(city)
-
-        var state = $("#state").val();
-
+ 
 
         $.ajax({
             type: "get",
             url: "index.php",
             data: {
-                name: name,
-                lastname: lastname,
                 Email: Email,
                 Message: Message,
-                city: city,
-                state: state,
 
             },
             dataType: "json",
