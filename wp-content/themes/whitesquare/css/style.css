@@ -2082,6 +2082,20 @@ margin-bottom: 20px;
 .form-control {
     border-color: black;
 }
+
+
+.order-form input{
+    border-color: #e6b97a;
+    height: 60px;
+    font-size: 20px;
+}
+
+.btn-gold {
+    background: #e6b97a;
+    border-color: #e6b97a;
+    color: white;
+    cursor: pointer;
+}
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/

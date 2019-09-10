@@ -86,7 +86,6 @@
       <div class="carousel-item">
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <h1>Biz layihələr yaradırıq !</h1>
               <a class="btn btn-lg btn-primary" href="#order-project">Sifariş edin</a>
               <div class="slider-main-title">
                   <h3 class="maintext10">BEYLITECH</h3>
@@ -146,76 +145,66 @@
         <section class="area-platform-info" id="order-project">
             <div class="container">
                 <div class="row">
-                  <div class="col-sm-12">
+                    <div class="col-sm-12">
                     <div class="orderproject">
                     <h1> Sifariş Layihəsi</h1>
                     </div>
-                  </div>
+                    </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4 a1">
+                    <div class="col-sm-4 a1">
                     <div class="a11 animated">
-                      <h3 class="landing">Landing </h3>
-                      <p class="project-details">*inexpensive website for business</br>
+                        <h3 class="landing">Landing </h3>
+                        <p class="project-details">*inexpensive website for business</br>
                         *brand awareness online</br>
                         *increase in sales and profits</br>
-                      </p> 
+                        </p> 
                     </div>
-                  </div>
-                  <div class="col-sm-4 a1">
+                    </div>
+                    <div class="col-sm-4 a1">
                     <div class="a11 animated">
-                      <h3 class="landing">Online Store</h3>
-                      <p class="project-details">*for the sale of goods and services</br>
+                        <h3 class="landing">Online Store</h3>
+                        <p class="project-details">*for the sale of goods and services</br>
                         *application management</br>
                         *stylish modern design</br>
-                      </p> 
+                        </p> 
                     </div>
-                  </div>
-                  <div class="col-sm-4 a1">
+                    </div>
+                    <div class="col-sm-4 a1">
                     <div class="a11 animated">
-                      <h3 class="landing">Blog </h3>
-                      <p class="project-details">*large amount of content</br>
+                        <h3 class="landing">Blog </h3>
+                        <p class="project-details">*large amount of content</br>
                         *registration and users</br>
                         *various modules for your tasks</br>
-                      </p> 
+                        </p> 
                     </div>
-                  </div>
+                    </div>
                 </div>
             </div>
-            <section>
-        <div class="container">
-        <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail"></label>
-      <input type="email" class="form-control" id="name" placeholder="Ad">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="input"></label>
-      <input type="text" class="form-control" id="lastname" placeholder="Soyad">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="input"></label>
-    <input type="text" class="form-control" id="Email" placeholder="Elektron poçt">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2"></label>
-    <input type="text" class="form-control" id="Message" placeholder="Mesaj">
-  </div>
-  <div class="form-row">
-    <div class="col-7">
-    <label for="inputAddress"></label>
-      <input type="text" class="form-control" id="city" placeholder="Şəhər">
-    </div>
-    <div class="col">
-    <label for="inputAddress"></label>
-      <input type="text" class="form-control" id="state" placeholder="Ünvan">
-    </div>
-    <div class="col-sm-12">
-  <button id="form-submit" type="button" class="btn btn-primary gold">Göndər</button>
-</div>
-</form>
+       
+            <div class="container">
+                <form action="" class="order-form">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="input"></label>
+                                <input type="text" class="form-control" id="Email" placeholder="Elektron poçt">
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="inputAddress2"></label>
+                                <input type="text" class="form-control" id="Message" placeholder="Mesaj">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <button id="form-submit" type="button" class="btn btn-lg btn-gold">Sifariş et</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
     </section>
 
         <div class="container">
