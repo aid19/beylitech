@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Blog</h5>
+                            <h5>Partnerlarımız</h5>
                             <div class="footer-single--blog-post">
                                 <a href="#" class="blog-post-date">
                                     <p>23 September, 2017</p>

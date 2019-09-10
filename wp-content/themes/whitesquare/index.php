@@ -19,7 +19,7 @@
 
                             <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
                                 <ul class="navbar-nav animated" id="nav">
-                                    <li class="nav-item active homepage-border"><a class="nav-link" href="index.html">Əsas səhifə</a></li>
+                                    <li class="nav-item active homepage-border"><a class="nav-link" href="index.html">Ana səhifə</a></li>
                                     <li class="nav-item dropdown ">
                                         <!-- <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Pages
@@ -36,9 +36,9 @@
                                         </div>
                                     </li> -->
                                     <!-- <li class="nav-item"><a class="nav-link" href="#blog.html">Our Team</a></li> -->
-                                    <li class="nav-item"><a class="nav-link" href="#portfolio.html">Portfel</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#portfolio.html">Portfolio</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#services.html">Xidmətlər</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#aboutus.php">Bizim haqqımızda</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#aboutus.php">Haqqımızda</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/contacts">Əlaqə</a></li>
                                 </ul>
                                 <!-- Search Form Area Start -->
@@ -147,7 +147,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                     <div class="orderproject">
-                    <h1> Sifariş Layihəsi</h1>
+                    <h1>Layihə sifariş etmək</h1>
                     </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <p class="ourwork">İşimiz</p>
-                        <h2 id="portfolio.html">Onlayn Portfelimizə baxın</h2>
+                        <h2 id="portfolio.html">Onlayn Portfoliomıza baxın</h2>
                     </div>
                 </div>
             </div>
@@ -334,7 +334,7 @@
                             <div class="col-sm-3 chooseus-block no-padding-x"> 
                                 <div class="service">
                                        
-                                    <h4>ÇOXDILLI</h4>
+                                    <h4>WORDPRESS</h4>
                                     <p class="first"> Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor </p>
                                     <i class="fas fa-pills i3"></i>
                                      </div>
@@ -348,46 +348,46 @@
                             </div>
                             <div class="col-sm-3 no-padding-x"> 
                                 <div class="service">
-                                <h4>GÜCLÜ</h4>
+                                <h4>OPENCART</h4>
                                 <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
                                 <i class="fab fa-cloudsmith i3"></i>
                                 </div>
                             </div>
                             <div class="col-sm-3 no-padding-x"> 
                                 <div class="service">
-                                    <h4>ÇEVIK</h4>
+                                    <h4>BITRIX</h4>
                                     <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
                                     <i class="fas fa-shield-alt i3"></i>
                                 </div>
                             </div>
                             <div class="col-sm-3 no-padding-x "> 
                                     <div class="service">
-                                        <h4>PULSUZ DƏSTƏK</h4>
+                                        <h4>DƏSTƏK</h4>
                                         <p class="first" >Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
                                         <i class="fas fa-magic i2"></i>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 no-padding-x "> 
                                         <div class="service">
-                                            <h4>GÜDRƏTLI ADMIN</h4>
+                                            <h4>SÜRƏT</h4>
                                             <p class="first" >Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
                                             <i class="far fa-edit i2"></i>
                                         </div>
                                     </div>
                                     <div class="col-sm-3 no-padding-x "> 
-                                            <div class="service">
-                                                <h4>MÜKƏMMƏL PIKSEL</h4>
-                                                <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                                <i class="fas fa-vial i3"></i>
-                                            </div>
+                                        <div class="service">
+                                            <h4>MÜKƏMMƏL RƏNGLƏR</h4>
+                                            <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
+                                            <i class="fas fa-vial i3"></i>
                                         </div>
-                                        <div class="col-sm-3 no-padding-x "> 
-                                                <div class="service">
-                                                    <h4>SÜRƏTLI YÜKLƏMƏ</h4>
-                                                    <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                                    <i class="fas fa-database i3"></i>
-                                                </div>
-                                            </div>
+                                        </div>
+                                    <div class="col-sm-3 no-padding-x "> 
+                                        <div class="service">
+                                            <h4>SÜRƏTLI YÜKLƏMƏ</h4>
+                                            <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
+                                            <i class="fas fa-database i3"></i>
+                                        </div>
+                                    </div>
                      </div>
                 </div>
             </div> 
@@ -441,7 +441,7 @@
                         <div class="features-progress-bar mt-50">
                             <!-- Single Progress Bar -->
                             <div class="single_progress_bar mb-15 wow fadeInUp" data-wow-delay="0.2s">
-                                <p>İnkişaf</p>
+                                <p>Proqramlaşdırma</p>
                                 <div id="bar1" class="barfiller">
                                     <div class="tipWrap">
                                         <span class="tip"></span>
@@ -484,41 +484,39 @@
 
 
     <!-- ***** Service Area Start ***** -->
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-4 b1">
-                        <div class="columns2">
-                            <div class="columns3">
-                            <i class="fas fa-trophy font end"></i> 
-                            <h2 class="tagline"> YARADICI DIZAYNLAR </h2> 
-                            <p  class="duis"></p>
-                            </div>
-                        </div>
-                    </div>
+<div class="container-fluid">
 
-                    <div class="col-sm-4 b2">
-                        <div class="columns4">
-                            <div class="columns5">
-                            <i class="fas fa-keyboard end"></i>
-                            <h2 class="tagline"> KODLAŞDIRMA  & PRAKTIKLIYI  </h2> 
-                             <p class="duis"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 b3">
-                        <div class="columns6">
-                            <div class="columns7">
-                            <i class="fas fa-clipboard-check end"></i>
-                             <h2 class="tagline"> MARKA MƏSLƏHƏTİ </h2> 
-                                <p  class="duis"> </p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-sm-4 no-padding-x">
+            <div class="columns2">
+                <div class="columns3">
+                <i class="fas fa-trophy font end"></i> 
+                <h2 class="tagline"> YARADICI DIZAYNLAR </h2> 
+                <p  class="duis"></p>
                 </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 no-padding-x">
+            <div class="columns4">
+                <div class="columns5">
+                <i class="fas fa-keyboard end"></i>
+                <h2 class="tagline"> KODLAŞDIRMA</h2> 
+                    <p class="duis"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 no-padding-x">
+            <div class="columns6">
+                <div class="columns7">
+                <i class="fas fa-clipboard-check end"></i>
+                    <h2 class="tagline"> MARKA MƏSLƏHƏTİ </h2> 
+                    <p  class="duis"> </p>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
     <!-- ***** Service Area End ***** -->
