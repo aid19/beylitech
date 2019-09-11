@@ -69,7 +69,7 @@
                 </div>
                     <div class="contact-item">   
                     <div class="contact-block">        
-                    <i class="fas fa-phone card"></i>
+                    <i class="fas fa-phone card" style="color: #ffffff;  background-color: #09103a;"></i>
                     <h6 class="tekst">Phone</h6>
                     <p>
                     <a> +994 (12) 408 20 02</a>
@@ -78,7 +78,7 @@
                     </div>   
                     <div class="contact-item"> 
                         <div class="contact-block">           
-                    <i class="fas fa-envelope-open-text card"></i>
+                    <i class="fas fa-envelope-open-text card" style="color: #ffffff;  background-color: #09103a;"></i>
                     <h6 class="tekst">E-mail</h6>
                     <p>
                     <a>support@beylitech.az</a>
@@ -87,7 +87,7 @@
                     </div> 
                     <div class="contact-item"> 
                         <div class="contact-block">            
-                    <i class="far fa-address-card card"></i>
+                    <i class="far fa-address-card card" style="color: #ffffff;  background-color: #09103a;"></i>
                     <h6 class="tekst">Adress</h6>
                     <p>
                         <a>1/25 Ahmad Racabli , Chinar Park Business <br>

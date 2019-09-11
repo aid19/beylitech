@@ -617,7 +617,7 @@ ol {
 ------------------------- */
 
 .mosh-features-area {
-    background-color: #211b31;
+    background-color: #09103a;
     position: relative;
     z-index: 1;
 }
@@ -947,7 +947,7 @@ span.accor-open {
 }
 
 .single-footer-widget ul > li > a {
-    color: rgba(226, 219, 243, 0.30);
+    color: white;
     margin-bottom: 10px!important;
     display: block;
     font-weight: 500;
@@ -1001,7 +1001,7 @@ span.accor-open {
 
 .footer-single--blog-post .blog-post-date > p:hover,
 .footer-single--blog-post .blog-post-title > h6:hover {
-    color: #4a7aec;
+    color: white;
 }
 
 .footer-single-contact-info .contact-icon {
@@ -1799,6 +1799,7 @@ height: 40px;
     text-align: center;
     padding: 10px;
     color: white;
+    margin-top: 20px;
     
 }
 .duis {
@@ -1907,9 +1908,12 @@ height: 40px;
 
 
 .yolo { 
-    background-color:#090c21;
+    background-color: white;
 }
 
+.yollo { 
+    background-color:#09103a;
+}
 
 
 .tor img {
@@ -1949,6 +1953,7 @@ text-align: center;
     font-size: 35px;
     padding: 12px;
 color: #1f3166;
+border-color: #00bcd4;
 }
 
 .map-info iframe{
@@ -2104,6 +2109,8 @@ margin-bottom: 20px;
     color: white;
     cursor: pointer;
 }
+
+
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/

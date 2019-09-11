@@ -324,7 +324,7 @@
     
      <!-- ***** Service Area Start ***** -->
 
-     <section class="service-area yolo">
+     <section class="service-area yollo">
         <div class="container-fluid">
             <div class="row"> 
                    <div class="col-sm-12">      
@@ -399,7 +399,7 @@
     
 
      <!-- ***** Clients Area Start ***** -->
-     <section class="mosh-clients-area section_padding_100 clearfix yolo">
+     <section class="mosh-clients-area section_padding_100 clearfix yollo">
         <div class="container ">
             <div class="row">
                 <div class="col-12">

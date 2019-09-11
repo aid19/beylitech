@@ -29,26 +29,26 @@
                         <div class="single-footer-widget mb-100">
                             <h5>Partnerlarımız</h5>
                             <div class="footer-single--blog-post">
-                                <a href="#" class="blog-post-date">
+                                <a class="blog-post-date">
                                     <p>23 September, 2017</p>
                                 </a>
-                                <a href="#" class="blog-post-title">
+                                <a  class="blog-post-title" style="color:white">
                                     <h6>Why we love stock photos</h6>
                                 </a>
                             </div>
                             <div class="footer-single--blog-post">
-                                <a href="#" class="blog-post-date">
+                                <a class="blog-post-date">
                                     <p>22 September, 2017</p>
                                 </a>
-                                <a href="#" class="blog-post-title">
+                                <a class="blog-post-title" style="color:white">
                                     <h6>Designin on grid. A few rules. </h6>
                                 </a>
                             </div>
                             <div class="footer-single--blog-post">
-                                <a href="#" class="blog-post-date">
+                                <a  class="blog-post-date">
                                     <p>20 September, 2017</p>
                                 </a>
-                                <a href="#" class="blog-post-title">
+                                <a class="blog-post-title" style="color:white" >
                                     <h6>2017 World Design Congress</h6>
                                 </a>
                             </div>
