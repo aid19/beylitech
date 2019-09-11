@@ -62,7 +62,7 @@ li {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #b1b3bf;
     font-size: 15px;
     font-weight: 500;
     margin-top: 0;
@@ -938,7 +938,7 @@ span.accor-open {
 .footer-area {
     position: relative;
     z-index: 1;
-    background-color: #211b31;
+    background-color: #080e34;
 }
 
 .single-footer-widget h5 {
@@ -1058,7 +1058,7 @@ span.accor-open {
 }
 
 .aboutus {
-    color: #e6b97a;
+    color: white;
 }
 
 .few-words-contents,
@@ -1852,7 +1852,7 @@ height: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
      size: 50px;
-     color: #e6b97a;
+     color: white;
 
 }
 
@@ -1875,11 +1875,11 @@ height: 40px;
     padding:40px;
     height:300px;
     width:100%;
-    color: #e6b97a;
+    color: white;
 }
 
 .service p {
-    color: white;
+    color: #b1b3bf;
 }
 
 .item-table{
