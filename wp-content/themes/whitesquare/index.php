@@ -211,39 +211,17 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <p class="ourwork">İşimiz</p>
                         <h2 id="portfolio.html">Onlayn Portfoliomıza baxın</h2>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="mosh-projects-menu">
-            <div class="text-center portfolio-menu">
-                <p class="active" data-filter="*">All</p>
-                <p data-filter=".gd">Graphic Design</p>
-                <p data-filter=".bi">Brand Identity</p>
-                <p data-filter=".pho">Photography</p>
-                <p data-filter=".wd">Web Design</p>
-                <p data-filter=".pc">Printing Colaterall</p>
-            </div>
-        </div>
         <div class="mosh-portfolio">
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item gd">
-                <!-- <img src="img/portfolio-img/1.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/1.jpg" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item bi">
                 <!-- <img src="img/portfolio-img/2.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/2.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/profam.png" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -254,7 +232,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item gd bi">
                 <!-- <img src="img/portfolio-img/3.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/3.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/layf.png" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -265,7 +243,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item pho">
                 <!-- <img src="img/portfolio-img/4.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/4.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/insure.png" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -275,41 +253,8 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item pho">
-                <!-- <img src="img/portfolio-img/5.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/5.jpg" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item wd pc">
-                <!-- <img src="img/portfolio-img/6.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/6.jpg" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item wd">
-                <!-- <img src="img/portfolio-img/7.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/7.jpg" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <!-- <img src="img/portfolio-img/8.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/8.jpg" alt="">
+                <!-- <img src="img/portfolio-img/4.jpg" alt=""> -->
+                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/beyli.png" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
