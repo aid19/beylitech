@@ -12,6 +12,7 @@ function theme_name_scripts() {
 	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/css/owl.carousel.min.css');
 	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css');
 	wp_enqueue_style( 'animate-css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+	wp_enqueue_style( 'imagehover-css', get_template_directory_uri() . '/css/imagehover.min.css');
 
 
 	

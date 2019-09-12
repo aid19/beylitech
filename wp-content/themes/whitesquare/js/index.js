@@ -6,10 +6,10 @@ $(document).ready(function() {
 
     $('.a11').click(function(){
         $('.a11').removeClass('project-active')
-        $('.a11').removeClass('flip')
+        $('.a11').removeClass('bounceIn')
 
         $(this).addClass('project-active')
-        $(this).addClass('flip')
+        $(this).addClass('bounceIn')
 
     })
 

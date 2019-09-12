@@ -36,9 +36,8 @@
                                         </div>
                                     </li> -->
                                     <!-- <li class="nav-item"><a class="nav-link" href="#blog.html">Our Team</a></li> -->
-                                    <li class="nav-item"><a class="nav-link" href="#portfolio.html">Portfolio</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#services.html">Xidmətlər</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#aboutus.php">Haqqımızda</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#order-project">Xidmətlər</a></li>
                                     <li class="nav-item"><a class="nav-link" href="/contacts">Əlaqə</a></li>
                                 </ul>
                                 <!-- Search Form Area Start -->
@@ -64,8 +63,7 @@
       <div class="carousel-item active">   
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <h1>Biz layihələr yaradırıq !</h1>
-              <a class="btn btn-lg btn-primary" href="#order-project">Sifariş edin</a>
+              <a class="btn btn-lg btn-primary animated" href="#order-project">Layihə Sifariş edin</a>
               <div class="slider-main-title">
                   <h3 class="maintext10">BEYLITECH</h3>
                   <p>CREATIVE TECHNOLOGIES</p>
@@ -75,8 +73,7 @@
       <div class="carousel-item">
             <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Biz layihələr yaradırıq !</h1>
-                <a class="btn btn-lg btn-primary" href="#order-project">Sifariş edin</a>
+                <a class="btn btn-lg btn-primary" href="#order-project">Layihə Sifariş edin</a>
                 <div class="slider-main-title">
                     <h3 class="maintext10">BEYLITECH</h3>
                     <p>CREATIVE TECHNOLOGIES</p>
@@ -86,7 +83,7 @@
       <div class="carousel-item">
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <a class="btn btn-lg btn-primary" href="#order-project">Sifariş edin</a>
+              <a class="btn btn-lg btn-primary" href="#order-project">Layihə Sifariş edin</a>
               <div class="slider-main-title">
                   <h3 class="maintext10">BEYLITECH</h3>
                   <p>CREATIVE TECHNOLOGIES</p>
@@ -207,263 +204,156 @@
             </div>
     </section>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2 id="portfolio.html">Onlayn Portfoliomıza baxın</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="mosh-portfolio">
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item bi">
-                <!-- <img src="img/portfolio-img/2.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/profam.png" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
+    <!-- ***** Portfolio Area ***** -->
+    <section class="portfolio-area" id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center">Onlayn portfolio</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4 no-padding-x">
+                    <div class="portfolio-item">
+                        <figure class="imghvr-push-right" style="background-color:white;">
+                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/insure.png" height="100%">
+                            <figcaption style="background-color:#09103a;">
+                                <h1>insure.az</h1>
+                                <p>online sığorta portalı</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding-x">
+                    <div class="portfolio-item">
+                        <figure class="imghvr-push-right" style="background-color:white;">
+                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/layf.png" height="100%">
+                            <figcaption style="background-color:#09103a;">
+                                <h1>layf.az</h1>
+                                <p>heyriyyə ictimai birliyi</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding-x">
+                    <div class="portfolio-item">
+                        <figure class="imghvr-push-right" style="background-color:white;">
+                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/beyli.png" height="100%">
+                            <figcaption style="background-color:#09103a;">
+                                <h1>beyli.az</h1>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item gd bi">
-                <!-- <img src="img/portfolio-img/3.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/layf.png" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
+
+        </div>
+    </section>
+
+    <!-- ***** Portfolio Area End ***** -->
+
+    
+    <!-- ***** Features Area Start ***** -->
+    <section class="mosh-features-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row justify-content-end">
+
+
+
+                <div class="col-12 col-md-4 col-md-offset-2">
+                    <div class="section-heading">
+                        <img src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="">
                     </div>
                 </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pho">
-                <!-- <img src="img/portfolio-img/4.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/insure.png" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pho">
-                <!-- <img src="img/portfolio-img/4.jpg" alt=""> -->
-                <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/beyli.png" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
+
+                <div class="col-12 col-md-6">
+                    <div class="section-heading">
+                        <h2>Bizimlə işinizə başlasanız nə əldə edirsiniz</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Portfolio Area End ***** -->
+    <!-- ***** Feature Area End ***** -->
 
-    
+
      <!-- ***** Service Area Start ***** -->
-
      <section class="service-area yollo">
         <div class="container-fluid">
             <div class="row"> 
                    <div class="col-sm-12">      
-                        <h1 id="services.html" class="choose">BİZİ NİYƏ SEÇMƏLISIZ</h1>
-                        <hr>
                         <div class="row">
-                            <div class="col-sm-3 chooseus-block no-padding-x"> 
+                            <div class="col-sm-3 no-padding-x" style="background:#0e1647"> 
                                 <div class="service">
-                                       
                                     <h4>WORDPRESS</h4>
-                                    <p class="first"> Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor </p>
-                                    <i class="fas fa-pills i3"></i>
-                                     </div>
-                                </div>
-                            <div class="col-sm-3 no-padding-x "> 
-                                <div class="service">
-                                    <h4>WOOCOMMERCE</h4>
-                                    <p class="first" >Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                    <i  class="fas fa-biohazard i2"></i>
+                                    <p class="first">Wordpress sistemi ilə inteqrasiya</p>
+                                    <i class="fab fa-wordpress i3"></i>                                
                                 </div>
                             </div>
+
                             <div class="col-sm-3 no-padding-x"> 
+                                <div class="service">
+                                    <h4>MÜKƏMMƏL RƏNGLƏR</h4>
+                                    <p class="first">Mükəmməl rənglərin seçimi və gözəl dizayn</p>
+                                    <i class="fas fa-vial i3"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 no-padding-x" style="background:#0e1647"> 
                                 <div class="service">
                                 <h4>OPENCART</h4>
-                                <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                <i class="fab fa-cloudsmith i3"></i>
+                                <p class="first">Opencart sistemi ilə inteqrasiya</p>
+                                <i class="fab fa-opencart i3"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-3 no-padding-x"> 
+                                <div class="service">
+                                    <h4>DƏSTƏK</h4>
+                                    <p class="first">Başa çatmış layihələrə iT dəstək</p>
+                                    <i class="fas fa-magic i3"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-3 no-padding-x"> 
+                                <div class="service">
+                                    <h4>SÜRƏT</h4>
+                                    <p class="first" >Layihələrin sürətli işləməsi</p>
+                                    <i class="fas fa-tachometer-alt i3"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 no-padding-x" style="background:#0e1647"> 
+                                <div class="service">
+                                    <h4>WOOCOMMERCE</h4>
+                                    <p class="first">Woocommerce sistemi ilə inteqrasiya</p>
+                                    <i class="far fa-edit i3"></i>
                                 </div>
                             </div>
                             <div class="col-sm-3 no-padding-x"> 
                                 <div class="service">
-                                    <h4>BITRIX</h4>
-                                    <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                    <i class="fas fa-shield-alt i3"></i>
+                                    <h4>SÜRƏTLI YÜKLƏMƏ</h4>
+                                    <p class="first" >Layihələrin google page insight sisteminde optimallasdirilması</p>
+                                    <i class="fas fa-database i3"></i>
                                 </div>
                             </div>
-                            <div class="col-sm-3 no-padding-x "> 
-                                    <div class="service">
-                                        <h4>DƏSTƏK</h4>
-                                        <p class="first" >Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                        <i class="fas fa-magic i2"></i>
-                                    </div>
+                            <div class="col-sm-3 no-padding-x" style="background:#0e1647"> 
+                                <div class="service">
+                                    <h4>BITRIX</h4>
+                                    <p class="first">Bitrix və 1C sistemi ilə inteqrasiya</p>
+                                    <i class="far fa-edit i3"></i>
                                 </div>
-                                <div class="col-sm-3 no-padding-x "> 
-                                        <div class="service">
-                                            <h4>SÜRƏT</h4>
-                                            <p class="first" >Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                            <i class="far fa-edit i2"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3 no-padding-x "> 
-                                        <div class="service">
-                                            <h4>MÜKƏMMƏL RƏNGLƏR</h4>
-                                            <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                            <i class="fas fa-vial i3"></i>
-                                        </div>
-                                        </div>
-                                    <div class="col-sm-3 no-padding-x "> 
-                                        <div class="service">
-                                            <h4>SÜRƏTLI YÜKLƏMƏ</h4>
-                                            <p class="first">Lorem ipsum dolor sit ametcon sectetur adipisicing elit,sed doiusmod tempor</p>
-                                            <i class="fas fa-database i3"></i>
-                                        </div>
-                                    </div>
+                            </div>
                      </div>
                 </div>
             </div> 
     </section>         
                
             
-    <!-- ***** Service Area End ***** -->
-
-    
-
-     <!-- ***** Clients Area Start ***** -->
-     <section class="mosh-clients-area section_padding_100 clearfix yollo">
-        <div class="container ">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2 class="aboutus">Bütün müştərilərimiz işimizi sevirlər</h2>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="clients-logo-area d-sm-flex align-items-center justify-content-between">
-                    <!-- <a href="#"><img src="img/clients-img/1.png" alt=""> -->
-                        <a href="#"><img src="<?php echo get_template_directory_uri()?>/img/clients-img/1.png" alt=""></a>
-                        <!-- <a href="#"><img src="img/clients-img/2.png" alt=""> -->
-                        <a href="#"><img src="<?php echo get_template_directory_uri()?>/img/clients-img/2.png" alt=""></a>
-                        <!-- <a href="#"><img src="img/clients-img/3.png" alt=""> -->
-                        <a href="#"><img src="<?php echo get_template_directory_uri()?>/img/clients-img/3.png" alt=""></a>
-                        <!-- <a href="#"><img src="img/clients-img/4.png" alt=""> -->
-                        <a href="#"><img src="<?php echo get_template_directory_uri()?>/img/clients-img/4.png" alt=""></a>
-                        <!-- <a href="#"><img src="img/clients-img/5.png" alt=""> -->
-                        <a href="#"><img src="<?php echo get_template_directory_uri()?>/img/clients-img/5.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Clients Area End ***** -->
-
-    <!-- ***** Features Area Start ***** -->
-    <section class="mosh-features-area section_padding_100 clearfix">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-12 col-md-6">
-                    <div class="section-heading">
-                        <p>müştərilər</p>
-                        <h2>Bizimlə işinizə başlasanız nə əldə edirsiniz</h2>
-                    </div>
-                    <div class="features-content">
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul. Nec odio vestibulum est mattis effic iturut magna. Pellente sque sita met tellus blandit. Etiam nec odio.</p>
-                        <!-- Progress Bar Content Area -->
-                        <div class="features-progress-bar mt-50">
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar mb-15 wow fadeInUp" data-wow-delay="0.2s">
-                                <p>Proqramlaşdırma</p>
-                                <div id="bar1" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="70"></span>
-                                </div>
-                            </div>
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar mb-15 wow fadeInUp" data-wow-delay="0.4s">
-                                <p>Dizayn</p>
-                                <div id="bar2" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="90"></span>
-                                </div>
-                            </div>
-                            <!-- Single Progress Bar -->
-                            <div class="single_progress_bar mb-15 wow fadeInUp" data-wow-delay="0.6s">
-                                <p>SEO</p>
-                                <div id="bar3" class="barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div>
-                                    <span class="fill" data-percentage="55"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Feature Thumb -->
-        <div class="features-img">
-            <!-- <img src="img/bg-img/features.png" alt=""> -->
-            <img src="<?php echo get_template_directory_uri()?>/img/bg-img/features.png" alt="">
-        </div>
-    </section>
-    <!-- ***** Feature Area End ***** -->
-
-
-    <!-- ***** Service Area Start ***** -->
-<div class="container-fluid">
-
-    <div class="row">
-        <div class="col-sm-4 no-padding-x">
-            <div class="columns2">
-                <div class="columns3">
-                <i class="fas fa-trophy font end"></i> 
-                <h2 class="tagline"> YARADICI DIZAYNLAR </h2> 
-                <p  class="duis"></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 no-padding-x">
-            <div class="columns4">
-                <div class="columns5">
-                <i class="fas fa-keyboard end"></i>
-                <h2 class="tagline"> KODLAŞDIRMA</h2> 
-                    <p class="duis"></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 no-padding-x">
-            <div class="columns6">
-                <div class="columns7">
-                <i class="fas fa-clipboard-check end"></i>
-                    <h2 class="tagline"> MARKA MƏSLƏHƏTİ </h2> 
-                    <p  class="duis"> </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
     <!-- ***** Service Area End ***** -->
 
 

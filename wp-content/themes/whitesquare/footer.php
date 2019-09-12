@@ -2,68 +2,44 @@
  <footer class="footer-area clearfix">
         <!-- Top Fotter Area -->
         <div class="top-footer-area section_padding_100_0">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
                             <a href="#" class="nav-brand">
-                            <!-- <img src="/img/core-img/logo.png" alt=""> -->
-                            <img class="navbar-brand" src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="">
+                                <img class="navbar-brand" src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="">
                             </a>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellent esque sit amet tellus blandit. Etiam nec odio vestibul.</p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Sürətli bağlantılar</h5>
+                            <h5>Menu</h5>
                             <ul>
-                                <li><a href="#">Ev</a></li>
-                                <li><a href="#">Rəsmi rəy</a></li>
-                                <li><a href="#">Xidmətlər & Xüsusiyyətlər</a></li>
-                                <li><a href="#">Akkordeonlar və nişanlar</a></li>
-                                <li><a href="#">Menyu fikirləri</a></li>
+                                <li><a href="#">Ana səhifə</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Haqqımızda</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Partnerlarımız</h5>
-                            <div class="footer-single--blog-post">
-                                <a class="blog-post-date">
-                                    <p>23 September, 2017</p>
-                                </a>
-                                <a  class="blog-post-title" style="color:white">
-                                    <h6>Why we love stock photos</h6>
-                                </a>
-                            </div>
-                            <div class="footer-single--blog-post">
-                                <a class="blog-post-date">
-                                    <p>22 September, 2017</p>
-                                </a>
-                                <a class="blog-post-title" style="color:white">
-                                    <h6>Designin on grid. A few rules. </h6>
-                                </a>
-                            </div>
-                            <div class="footer-single--blog-post">
-                                <a  class="blog-post-date">
-                                    <p>20 September, 2017</p>
-                                </a>
-                                <a class="blog-post-title" style="color:white" >
-                                    <h6>2017 World Design Congress</h6>
-                                </a>
-                            </div>
+                        <h5>Menu</h5>
+                            <ul>
+                                <li><a href="http://insure.az" target="__blank">insure.az</a></li>
+                                <li><a href="http://layf.az" target="__blank">layf.az</a></li>
+                                <li><a href="http://beyli.az" target="__blank">beyli.az</a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <h5>Əlaqə məlumatı</h5>
+                            <h5>Əlaqə</h5>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
                                     <!-- <img src="img/core-img/map.png" alt=""> -->
                                     <img src="<?php echo get_template_directory_uri()?>/img/core-img/map.png" alt="">
                                 </div>
-                                <p>1/25 Ahmad Racabli , Chinar Park Business
-Center 3A Baku, Azerbaijan</p>
+                                <p>Babək prospekti, Babək Plaza</p>
                             </div>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
@@ -90,11 +66,12 @@ Center 3A Baku, Azerbaijan</p>
                 <div class="row h-100">
                     <div class="col-12 h-100">
                         <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
-                            <div class="copyright-text">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
+                            <div class="copyright-text" >
+                                <p style="font-size:8px !important">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
                             </div>
                             <div class="footer-social-info">
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
