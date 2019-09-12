@@ -62,7 +62,7 @@ li {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #b1b3bf;
     font-size: 15px;
     font-weight: 500;
     margin-top: 0;
@@ -617,7 +617,7 @@ ol {
 ------------------------- */
 
 .mosh-features-area {
-    background-color: #211b31;
+    background-color: #09103a;
     position: relative;
     z-index: 1;
 }
@@ -910,7 +910,7 @@ span.accor-open {
 .footer-area {
     position: relative;
     z-index: 1;
-    background-color: #211b31;
+    background-color: #080e34;
 }
 
 .single-footer-widget h5 {
@@ -919,7 +919,7 @@ span.accor-open {
 }
 
 .single-footer-widget ul > li > a {
-    color: rgba(226, 219, 243, 0.30);
+    color: white;
     margin-bottom: 10px!important;
     display: block;
     font-weight: 500;
@@ -973,7 +973,7 @@ span.accor-open {
 
 .footer-single--blog-post .blog-post-date > p:hover,
 .footer-single--blog-post .blog-post-title > h6:hover {
-    color: #4a7aec;
+    color: white;
 }
 
 .footer-single-contact-info .contact-icon {
@@ -1030,7 +1030,7 @@ span.accor-open {
 }
 
 .aboutus {
-    color: #e6b97a;
+    color: white;
 }
 
 .few-words-contents,
@@ -1771,6 +1771,7 @@ height: 40px;
     text-align: center;
     padding: 10px;
     color: white;
+    margin-top: 20px;
     
 }
 .duis {
@@ -1823,7 +1824,7 @@ height: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
      size: 50px;
-     color: #e6b97a;
+     color: white;
 
 }
 
@@ -1846,11 +1847,11 @@ height: 40px;
     padding:40px;
     height:300px;
     width:100%;
-    color: #e6b97a;
+    color: white;
 }
 
 .service p {
-    color: white;
+    color: #b1b3bf;
 }
 
 .item-table{
@@ -1879,9 +1880,12 @@ height: 40px;
 
 
 .yolo { 
-    background-color:#090c21;
+    background-color: white;
 }
 
+.yollo { 
+    background-color:#09103a;
+}
 
 
 .tor img {
@@ -1921,6 +1925,7 @@ text-align: center;
     font-size: 35px;
     padding: 12px;
 color: #1f3166;
+border-color: #00bcd4;
 }
 
 .map-info iframe{
@@ -1929,6 +1934,8 @@ color: #1f3166;
     display: block;
     width: 100%;
     height: 630px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 .contactss {
     box-sizing: border-box;
@@ -2076,6 +2083,8 @@ margin-bottom: 20px;
     color: white;
     cursor: pointer;
 }
+
+
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
