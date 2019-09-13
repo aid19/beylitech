@@ -9,7 +9,7 @@
                     <div class="menu_area h-100">
                         <nav class="navbar h-100 navbar-expand-lg align-items-center">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="/">
                                 <!-- <img src="img/blog-img/logo-footer.png" alt="logo"> -->
                                 <img src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="logo">
                              </a>
@@ -103,69 +103,8 @@
 </div>
 
         <section class="area-platform-info" id="order-project">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                    <div class="orderproject">
-                    <h1>Layihə sifariş etmək</h1>
-                    </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 a1">
-                    <div class="a11 animated">
-                        <h3 class="landing">Landing </h3>
-                        <p class="project-details">*inexpensive website for business</br>
-                        *brand awareness online</br>
-                        *increase in sales and profits</br>
-                        </p> 
-                    </div>
-                    </div>
-                    <div class="col-sm-4 a1">
-                    <div class="a11 animated">
-                        <h3 class="landing">Online Store</h3>
-                        <p class="project-details">*for the sale of goods and services</br>
-                        *application management</br>
-                        *stylish modern design</br>
-                        </p> 
-                    </div>
-                    </div>
-                    <div class="col-sm-4 a1">
-                    <div class="a11 animated">
-                        <h3 class="landing">Blog </h3>
-                        <p class="project-details">*large amount of content</br>
-                        *registration and users</br>
-                        *various modules for your tasks</br>
-                        </p> 
-                    </div>
-                    </div>
-                </div>
-            </div>
-       
-            <div class="container">
-                <form action="" class="order-form">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="input"></label>
-                                <input type="text" class="form-control" id="email" placeholder="Elektron poçt">
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="inputAddress2"></label>
-                                <input type="text" class="form-control" id="message" placeholder="Mesaj">
-                            </div>
-                        </div>
 
-                        <div class="col-sm-12">
-                            <button id="form-submit" type="button" class="btn btn-lg btn-gold btn-order-project">Sifariş et</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-    </section>
+        </section>
 
 
     <!-- ***** Portfolio Area ***** -->
@@ -173,48 +112,27 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="text-center">Onlayn portfolio</h1>
+                    <h1 class="text-center my-5">Onlayn portfolio</h1>
                 </div>
             </div>
-
 
             <div class="row">
-                <div class="col-sm-4 no-padding-x">
-                    <div class="portfolio-item">
-                        <figure class="imghvr-push-right" style="background-color:white;">
-                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/insure.png" height="100%">
-                            <figcaption style="background-color:#09103a;">
-                                <h1>insure.az</h1>
-                                <p>online sığorta portalı</p>
-                            </figcaption>
-                        </figure>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <div class="col-sm-4 no-padding-x">
+                        <div class="portfolio-item">
+                            <a href="<?php the_title() ?>" target="__blank">
+                                <figure class="imghvr-push-right" style="background-color:white;">
+                                    <img src="<?php the_post_thumbnail_url() ?>" height="100%">
+                                    <figcaption style="background-color:#09103a;">
+                                        <h1><?php the_title() ?></h1>
+                                        <p><?php the_content() ?></p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-sm-4 no-padding-x">
-                    <div class="portfolio-item">
-                        <figure class="imghvr-push-right" style="background-color:white;">
-                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/layf.png" height="100%">
-                            <figcaption style="background-color:#09103a;">
-                                <h1>layf.az</h1>
-                                <p>heyriyyə ictimai birliyi</p>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 no-padding-x">
-                    <div class="portfolio-item">
-                        <figure class="imghvr-push-right" style="background-color:white;">
-                            <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/beyli.png" height="100%">
-                            <figcaption style="background-color:#09103a;">
-                                <h1>beyli.az</h1>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
+                <?php endwhile; endif;?>
             </div>
-
         </div>
     </section>
 

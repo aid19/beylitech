@@ -30,3 +30,4 @@ function theme_name_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
+add_theme_support( 'post-thumbnails' );

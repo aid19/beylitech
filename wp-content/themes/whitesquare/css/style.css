@@ -1965,7 +1965,7 @@ border-color: #00bcd4;
 .ourwork{
     padding-top: 100px;
 }
-.a11{
+.project-item{
 
     border:2px solid #0d1651;
     border-radius: 3px; 
@@ -2091,6 +2091,9 @@ margin-bottom: 20px;
 
 .portfolio-area {
     position: relative;
+    background: #09103a;
+    color: white;
+    margin-top: 20px;
     width: 100%;
 }
 
