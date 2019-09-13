@@ -5,10 +5,10 @@ $(document).ready(function() {
     });
 
     
-    $('.a11').click(function(){
+    $('.block-form').click(function(){
 
-        $('.a11').removeClass('project-active')
-        $('.a11').removeClass('bounceIn')
+        $('.block-form').removeClass('project-active')
+        $('.block-form').removeClass('bounceIn')
 
         $(this).addClass('project-active')
         $(this).addClass('bounceIn')
