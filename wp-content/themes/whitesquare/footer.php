@@ -96,6 +96,8 @@
         <script src="<?php echo get_template_directory_uri()?>/js/active.js"></script>
         <script src="<?php echo get_template_directory_uri()?>/js/index.js"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
     </footer>
 
 </html>

@@ -17,6 +17,7 @@ function theme_name_scripts() {
 
 	
 
+	// wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-2.2.4.min.js', array(), '1.0.0', true );
 
 	// wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-2.2.4.min.js', array(), '1.0.0', true );
 	// wp_enqueue_script( 'popper', get_template_directory_uri() . '/js/popper.min.js', array(), '1.0.0', true );

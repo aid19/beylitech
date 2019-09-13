@@ -102,43 +102,6 @@
   </div>
 </div>
 
-    <!-- ***** Portfolio Area Start ***** -->
-        <!-- <div  class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="teamm">
-                        <h1 id="blog.html" >Our Team</h1>
-                    </div>
-                </div>	
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="tor">
-                        <img src="<?php echo get_template_directory_uri()?>/img/team-img/tor.jpg" alt="" >
-                        <h3 class="aa"> CHRIS </h3> 
-                        <p class="aa"> PR-menager </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="tor">
-                        <img src="<?php echo get_template_directory_uri()?>/img/team-img/robert.jpg" alt="" >
-                        <h3 class="aa"> ROBERT </h3> 
-                        <p class="aa"> Web-programmer</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="tor">
-                        <img src="<?php echo get_template_directory_uri()?>/img/team-img/skarlet.png" alt="" >
-                        <h3 class="aa"> SKARLET </h3> 
-                        <p class="aa"> Web-designer </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
         <section class="area-platform-info" id="order-project">
             <div class="container">
                 <div class="row">
@@ -185,19 +148,19 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="input"></label>
-                                <input type="text" class="form-control" id="Email" placeholder="Elektron poçt">
+                                <input type="text" class="form-control" id="email" placeholder="Elektron poçt">
                             </div>
                         </div>
                     
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="inputAddress2"></label>
-                                <input type="text" class="form-control" id="Message" placeholder="Mesaj">
+                                <input type="text" class="form-control" id="message" placeholder="Mesaj">
                             </div>
                         </div>
 
                         <div class="col-sm-12">
-                            <button id="form-submit" type="button" class="btn btn-lg btn-gold">Sifariş et</button>
+                            <button id="form-submit" type="button" class="btn btn-lg btn-gold btn-order-project">Sifariş et</button>
                         </div>
                     </div>
                 </form>
