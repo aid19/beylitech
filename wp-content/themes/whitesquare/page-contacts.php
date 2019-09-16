@@ -23,7 +23,7 @@
 
                             <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
                                 <ul class="navbar-nav animated" id="nav">
-                                    <li class="nav-item active homepage-border"><a class="nav-link" href="index.html">Homepage</a></li>
+                                    <li class="nav-item active homepage-border"><a class="nav-link" href="index.html">Ana səhifə</a></li>
                                     <!-- <li class="nav-item dropdown ">
                                         <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Pages
@@ -40,11 +40,9 @@
                                         </div>
                                     </li> -->
 
-                                    <li class="nav-item"><a class="nav-link" href="aboutus.php">About Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Our Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="page_contacts">Contacts</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Xidmətlər</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="page_contacts">Əlaqə</a></li>
                                 </ul>
                                 <!-- Menu Area End -->
                        <!--Contacts Area Start -->

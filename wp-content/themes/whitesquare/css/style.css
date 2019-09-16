@@ -1966,7 +1966,7 @@ border-color: #00bcd4;
     padding-top: 100px;
 }
 .project-item{
-
+    
     border:2px solid #0d1651;
     border-radius: 3px; 
     /* background-color: #c9dbed; */
@@ -2090,10 +2090,10 @@ margin-bottom: 20px;
 
 
 .portfolio-area {
+    margin-top: 15px;
     position: relative;
     background: #09103a;
     color: white;
-    margin-top: 20px;
     width: 100%;
 }
 
@@ -2131,9 +2131,40 @@ margin-bottom: 20px;
 
 .portfolio-image{ 
     height: 100%;
+
 }
 
 
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
+
+
+
+@media screen and (max-width: 500px) {
+    .navbar-brand {
+        width: 200px;
+    }
+
+    .map-info iframe {
+        margin-left: 0px;
+    }
+
+    .navbar-toggler-icon {
+        background-color: black;
+    }
+
+    .project-item{
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .navbar-toggler-icon {
+color: white;
+    }
+}
+
+
