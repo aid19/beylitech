@@ -10,7 +10,7 @@
                     <div class="menu_area h-100">
                         <nav class="navbar h-100 navbar-expand-lg align-items-center">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="/">
                                 <!-- <img src="img/blog-img/logo-footer.png" alt="logo"> -->
                                 <img src="<?php echo get_template_directory_uri()?>/img/blog-img/logo-footer.png" alt="logo">
 
@@ -23,7 +23,7 @@
 
                             <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
                                 <ul class="navbar-nav animated" id="nav">
-                                    <li class="nav-item active homepage-border"><a class="nav-link" href="index.html">Homepage</a></li>
+                                    <li class="nav-item active homepage-border"><a class="nav-link" href="/">Ana səhifə</a></li>
                                     <!-- <li class="nav-item dropdown ">
                                         <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Pages
@@ -40,11 +40,9 @@
                                         </div>
                                     </li> -->
 
-                                    <li class="nav-item"><a class="nav-link" href="aboutus.php">About Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Our Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="page_contacts">Contacts</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Xidmətlər</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="page_contacts">Əlaqə</a></li>
                                 </ul>
                                 <!-- Menu Area End -->
                        <!--Contacts Area Start -->
@@ -58,7 +56,7 @@
     <!-- ***** Header Area End ***** -->
 
 <section class="mosh-portfolio-area section_padding_100_0 clearfix yolo">
-<div class="container">
+<div class="container-fluid">
     <div class="row">
     <div class="col-sm-12">
         <div class="cts">
@@ -99,9 +97,9 @@
                     </div>
                     <div class="col-sm-10">
                     <div class="map-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.4437052739687!2d49.85848872860668!3d40.41383895051471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403087f1fad1d885%3A0xc62a900f7ed8c732!2sBeyli%20Group!5e0!3m2!1sru!2s!4v1567773306378!5m2!1sru!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.9262027838736!2d49.866491415729485!3d40.38832816528962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d3d5d06d07b%3A0x62e93325cabed355!2zQmFiZWsgUGxhemEsIFFhcmHDp3V4dXIsINCQ0LfQtdGA0LHQsNC50LTQttCw0L0!5e0!3m2!1sru!2s!4v1568715454716!5m2!1sru!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    </div>
                  </div>
             </div>
         </div>
