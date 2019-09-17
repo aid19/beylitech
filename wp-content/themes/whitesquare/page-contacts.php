@@ -60,7 +60,7 @@
     <div class="row">
     <div class="col-sm-12">
         <div class="cts">
-            <h1>Contacts</h1>
+            <h1>Əlaqə</h1>
             <div class="row">
             <div class="col-sm-2">
                 <div class="contactss">
