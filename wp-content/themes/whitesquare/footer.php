@@ -74,9 +74,7 @@
                                 </p>
                             </div>
                             <div class="footer-social-info">
-                                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/beylitech/" target="__blank"><i class="fab fa-facebook-square"></i></a>
                             </div>
                         </div>
                     </div>
@@ -94,9 +92,12 @@
         <script src="<?php echo get_template_directory_uri()?>/js/plugins.js"></script>
         <!-- Active js -->
         <script src="<?php echo get_template_directory_uri()?>/js/active.js"></script>
-        <script src="<?php echo get_template_directory_uri()?>/js/index.js"></script>
+        <!-- <script src="<?php //echo get_template_directory_uri()?>/js/index.js"></script> -->
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+
+        <script src="<?php echo get_template_directory_uri()?>/js/app.js"></script>
 
     </footer>
 

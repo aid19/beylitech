@@ -1,0 +1,35 @@
+{
+  "name": "beylitech",
+  "version": "1.0.0",
+  "description": "beylitech website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aid19/beylitech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aid19/beylitech/issues"
+  },
+  "homepage": "https://github.com/aid19/beylitech#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "sweetalert2": "^8.17.1",
+    "webpack": "^4.40.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.8"
+  }
+}
