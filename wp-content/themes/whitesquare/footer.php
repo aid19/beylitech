@@ -23,7 +23,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                        <h5>Menu</h5>
+                        <h5>Tərəfdaşlarımız</h5>
                             <ul>
                                 <li><a href="http://insure.az" target="__blank">insure.az</a></li>
                                 <li><a href="http://layf.az" target="__blank">layf.az</a></li>
