@@ -638,6 +638,10 @@ ol {
     margin-bottom: 60px;
 }
 
+.mosh-features-area .section-heading img {
+    max-width: 100%;
+}
+
 .mosh-features-area .section-heading h2 {
     color: #fff;
 }
@@ -1953,7 +1957,7 @@ border-color: #00bcd4;
 .orderproject {
     font-weight: 900 ;
     text-align: center;
-    padding: 50px;
+    padding: 15px;
 }
  
 .price {
@@ -2097,6 +2101,10 @@ margin-bottom: 20px;
     width: 100%;
 }
 
+.portfolio-area h1 {
+    padding: 15px 0;
+}
+
 .portfolio-image-cover {
     display: flex;
     flex-direction: column;
@@ -2140,8 +2148,29 @@ margin-bottom: 20px;
 ---------------------------------*/
 
 
+@media screen and (min-width: 200px) and (max-width: 399px) {
+    h1, h2, h3, h4 {
+        font-size: 20px !important;
+    }
 
-@media screen and (max-width: 500px) {
+    .navbar-brand {
+        width: 200px;
+    }
+
+    .portfolio-item {
+        height: 200px;
+    }
+    .portfolio-item figure{
+        height: 200px;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
     .navbar-brand {
         width: 200px;
     }
@@ -2158,13 +2187,53 @@ margin-bottom: 20px;
         margin-bottom: 15px;
     }
 
+    .navbar-toggler-icon {
+        color: white;
+    }
+
+    .portfolio-item {
+        height: 300px;
+    }
+    .portfolio-item figure{
+        height: 300px;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
 
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
-    .navbar-toggler-icon {
-color: white;
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .portfolio-item {
+        height: 400px;
+    }
+    .portfolio-item figure{
+        height: 400px;
+    }
+
+    .carousel-item img{
+        height: 400px;
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .portfolio-item {
+        height: 500px;
+    }
+    .portfolio-item figure{
+        height: 500px;
+    }
 
+    .carousel-item img{
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .portfolio-item {
+        height: 300px;
+    }
+    .portfolio-item figure{
+        height: 300px;
+    }
+}

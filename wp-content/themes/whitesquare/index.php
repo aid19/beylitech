@@ -45,7 +45,7 @@
     <div class="carousel-inner animated slideInLeft">
         <div class="carousel-item active">   
           <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-sm-block">
               <a class="btn btn-lg btn-primary animated" href="#order-project">Layihə Sifariş edin</a>
                 <div class="slider-main-title">
                     <h3 class="text-title">BEYLITECH</h3>
@@ -55,7 +55,7 @@
     </div>
     <div class="carousel-item">
         <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-sm-block">
                 <a class="btn btn-lg btn-primary" href="#order-project">Layihə Sifariş edin</a>
                     <div class="slider-main-title">
                         <h3 class="text-title">BEYLITECH</h3>
@@ -65,7 +65,7 @@
     </div>
     <div class="carousel-item">
         <img src="<?php echo get_template_directory_uri()?>/img/blog-img/background3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-sm-block">
                 <a class="btn btn-lg btn-primary" href="#order-project">Layihə Sifariş edin</a>
                     <div class="slider-main-title">
                         <h3 class="text-title">BEYLITECH</h3>
@@ -155,7 +155,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 no-padding-x">
+            <div class="col-sm-12 col-md-12 col-lg-4 no-padding-x">
                 <div class="portfolio-item">
                     <figure class="imghvr-push-right" style="background-color:white;">
                         <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/insure.png" height="100%">
@@ -166,7 +166,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="col-sm-4 no-padding-x">
+            <div class="col-sm-12 col-md-12 col-lg-4 no-padding-x">
                 <div class="portfolio-item">
                     <figure class="imghvr-push-right" style="background-color:white;">
                         <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/layf.png" height="100%">
@@ -177,7 +177,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="col-sm-4 no-padding-x">
+            <div class="col-sm-12 col-md-12 col-lg-4 no-padding-x">
                 <div class="portfolio-item">
                     <figure class="imghvr-push-right" style="background-color:white;">
                         <img src="<?php echo get_template_directory_uri()?>/img/portfolio-img/beyli.png" height="100%">
